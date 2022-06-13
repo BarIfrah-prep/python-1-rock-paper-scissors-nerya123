@@ -1,10 +1,7 @@
 import random
 
 
-
-
 while True:
-
     try:
         userinput = int(input("Enter number(1-stone, 2-scissors, 3-paper) :"))
     except ValueError:
